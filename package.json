@@ -1,0 +1,37 @@
+{
+  "name": "mcp-usps",
+  "version": "1.0.0",
+  "description": "MCP server for USPS \u2014 address validation, tracking, rates",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "usps",
+    "shipping",
+    "tracking",
+    "address"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "bin": {
+    "mcp-usps": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PetrefiedThunder/mcp-usps"
+  }
+}
